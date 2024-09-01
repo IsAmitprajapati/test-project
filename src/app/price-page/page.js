@@ -10,12 +10,12 @@ const PricePage = () => {
     useEffect(()=>{
         setTimeout(()=>{
             setOpenForm(true)
-        },5000)
+        },15000)
     },[openForm])
   return (
     <main className="w-full h-full relative">
         <Image
-          src={"/image/Bg2.jpg"}
+          src={"/image/background2.jpg"}
           className="w-full h-full"
           alt="image"
           width={1500}

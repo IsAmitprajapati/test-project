@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <main className="w-full h-full relative">
         <Image
-          src={"/image/Bg.jpg"}
-          className="w-full h-full"
+          src={"/image/background.jpg"}
+          className="w-full h-full bg-contain"
           alt="image"
           width={1500}
           height={1100}
